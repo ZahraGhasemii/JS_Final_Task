@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>تسک دوره جاوااسکریپت</title>
+    <link rel="stylesheet" href="./styles/index.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <section class="main">
+      <div class="transaction-load">
+        <button class="btn transaction-load__btn">بارگذاری تراکنش ها</button>
+      </div>
+
+      <div class="transactions">
+        <div class="transactions__filters">
+          <div><h1>لیست تراکنش ها</h1></div>
+          <div class="transactions__search">
+            <input
+              type="text"
+              placeholder="جستجوی تراکنش..."
+              class="transactions__search__input"
+            />
+            <button class="transactions__search__btn"><i class="fa fa-search"></i></button>
+          </div>
+        </div>
+
+        <div class="transactions__list"></div>
+      </div>
+    </section>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
